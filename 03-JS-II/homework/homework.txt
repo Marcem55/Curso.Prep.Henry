@@ -1,0 +1,5 @@
+`for`: Los 'for' son bucles, los cuales evaluan una expresion una y otra vez hasta que nos devuelva lo que queremos y 
+que se van a ejecutar hasta que la condicion que nosotros elijamos no se cumpla más.
+
+`&&`, `||`, `!`: Estos 3 ejemplos que tenemos al iniciar esta linea, son operadores logicos, los cuales nos permiten
+comparar mas de una expresion de igualdad. El && significa AND, el || significa (OR) y el ! significa (NO).
