@@ -1,0 +1,26 @@
+Variables: Las variables son una forma de almacenar algo para poder usarlo más tarde. Por ejemplo si le asignamos un valor,
+vamos a poder utilizar ese valor más adelante nombrando unicamente la variable.
+
+Strings: Una string es un tipo de dato de tipo texto que se define entre comillas, ya sean simples ('') o dobles ("").
+
+Funciones (argumentos, `return`): Las funciones permiten almacenar una parte de código que realiza una tarea dentro de un bloque definido, 
+y luego llamar a ese código siempre que lo necesites utilizando un comando breve en lugar de tener que escribir el mismo codigo muchas veces.
+Los argumentos son las variables que les colocamos a las funciones para despues poder llamarlas usando esa variable.
+"return" es un valor que devuelve la funcion en caso de querer que nos devuelva algo. Una vez que la funcion nos retorna algo,
+ahi se detiene la ejecución de la función.
+
+Declaraciones `if`: Las declaraciones if son condicionales que verifican si el codigo que se ejecuta en nuestra funcion es
+"true" o "false". Y ese resultado lo podemos retornar con lo visto anteriormente: "return"
+
+Valores booleanos: Los valores booleanos son 2 valores que nos van a definir si una condicion es verdadera (true) o falsa (false).
+
+Veamos un ejemplo en el que incluya toda esta teoría:
+
+function practicaDeTeoria(numero){
+    if(numero > 20){
+        return "Es mayor";
+    }
+    else {
+        return false;
+    }
+}
